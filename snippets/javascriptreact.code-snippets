@@ -13,7 +13,22 @@
       "  onStop() {",
       "     ",
       "  }",
-      "}"
+      "};"
+    ]
+  },
+  "Vizality Settings Component": {
+    "prefix": ["vzs", "vzset", "vz-settings"],
+    "description": "Creates a Vizality plugin settings functional component scaffold.",
+    "body": [
+      "const { React, React: { memo } } = require('@vizality/react');",
+      "const { settings: { $1 } } = require('@vizality/components');",
+      "",
+      "module.exports = memo(({ getSetting, setSetting, toggleSetting }) => {",
+      "  return (",
+      "    $0",
+      "  );",
+      "});",
+      ""
     ]
   },
   "Vizality Injection": {
@@ -85,7 +100,7 @@
       "  return (",
       "    $0",
       "  );",
-      "};",
+      "});",
       ""
     ]
   },
