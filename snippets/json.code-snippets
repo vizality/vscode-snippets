@@ -1,6 +1,6 @@
 {
   "Vizality Plugin Manifest": {
-    "prefix": "vzp",
+    "prefix": ["vzp", "vzplugin", "vz-plugin"],
     "description": "Creates a Vizality plugin manifest scaffold.",
     "body": [
       "{",
@@ -16,7 +16,7 @@
     ]
   },
   "Vizality Theme Manifest": {
-    "prefix": "vzt",
+    "prefix": ["vzt", "vztheme", "vz-theme"],
     "description": "Creates a Vizality theme manifest scaffold.",
     "body": [
       "{",

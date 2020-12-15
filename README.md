@@ -32,8 +32,8 @@ All of the JS snippets are included in the JSX snippets, because the JS snippets
 
 ### JS Snippets
 
-|  Trigger | Alias                    | Description                                     |
-| -------- | -------------------------|------------------------------------------------ |
+| Trigger    | Alias                    | Description                                     |
+| ---------- | ------------------------ | ----------------------------------------------- |
 | **vzp→**   | `vzplug`, `vz-plugin`    | Creates a Vizality plugin class scaffold.       |
 | **vzi→**   | `vzinj`, `vz-inject`     | Creates a function injection scaffold.          |
 | **vzw→**   | `vzweb`, `vz-webpack`    | Imports Vizality's webpack module.              |
@@ -48,8 +48,8 @@ All of the JS snippets are included in the JSX snippets, because the JS snippets
 
 ### JSX Snippets
 
-|  Trigger | Alias                    | Description                                     |
-| -------- | -------------------------|------------------------------------------------ |
+| Trigger    | Alias                    | Description                                     |
+| ---------- | ------------------------ | ----------------------------------------------- |
 | **vzp→**   | `vzplug`, `vz-plugin`    | Creates a Vizality plugin class scaffold.       |
 | **vzi→**   | `vzinj`, `vz-inject`     | Creates a function injection scaffold.          |
 | **vzw→**   | `vzweb`, `vz-webpack`    | Imports Vizality's webpack module.              |
@@ -67,23 +67,23 @@ All of the JS snippets are included in the JSX snippets, because the JS snippets
 
 ### JSON Snippets
 
-|  Trigger | Alias | Description                                  |
-| -------- | ------|--------------------------------------------- |
-| **vzp→**   | ---   | Creates a Vizality plugin manifest scaffold. |
-| **vzt→**   | ---   | Creates a Vizality theme manifest scaffold.  |
+| Trigger   | Alias                   | Description                                  |
+| --------- | ----------------------- | -------------------------------------------- |
+| **vzp→**  | `vzplugin`, `vz-plugin` | Creates a Vizality plugin manifest scaffold. |
+| **vzt→**  | `vztheme`, `vz-theme`   | Creates a Vizality theme manifest scaffold.  |
 
 ### SCSS Snippets
 
-|  Trigger | Alias               | Description                                                      |
-| -------- | --------------------|----------------------------------------------------------------- |
+| Trigger    | Alias               | Description                                                      |
+| ---------- | ------------------- | ---------------------------------------------------------------- |
 | **vzs→**   | `vzsass`, `vz-sass` | Imports the Vizality Sass library.                               |
 | **v--→**   | `var(--`            | Shows intellisense options for Discord's standard CSS variables. |
 
 ### CSS Snippets
 
-|  Trigger | Alias    | Description                                                      |
-| -------- | ---------|----------------------------------------------------------------- |
-| **v--→**   | `var(--` | Shows intellisense options for Discord's standard CSS variables. |
+| Trigger  | Alias     | Description                                                      |
+| -------- | --------- | ---------------------------------------------------------------- |
+| **v--→** | `var(--`  | Shows intellisense options for Discord's standard CSS variables. |
 
 ## Todo
 
