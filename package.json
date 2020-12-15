@@ -1,13 +1,13 @@
 {
   "name": "vizality-snippets",
   "description": "Useful snippets for Vizality plugin and theme development.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "publisher": "vizality",
   "icon": "assets/icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vizality/vscode-snippets"
+    "url": "https://github.com/vizality/vs-snippets"
   },
   "engines": {
     "vscode": "^1.51.0"
