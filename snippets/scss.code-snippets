@@ -1,0 +1,25 @@
+{
+  "Vizality Sass": {
+    "prefix": ["vzs", "vz-sass"],
+    "description": "Imports the Vizality Sass library.",
+    "body": [
+      "@use '@vizality' as ${1:*};",
+      "",
+      "$0"
+    ]
+  },
+  "Discord CSS Variables": {
+    "prefix": ["v--", "var(--"],
+    "description": "Shows intellisense options for Discord's standard CSS variables.",
+    "body": [
+      "var(--${1| ,activity-card-background,background-accent,background-floating,background-help-info,background-help-warning,background-mentioned,background-mentioned-hover,background-message-hover,background-mobile-primary,background-mobile-secondary,background-modifier-accent,background-modifier-active,background-modifier-hover,background-modifier-selected,background-primary,background-secondary,background-secondary-alt,background-tertiary,channels-default,channeltextarea-background,deprecated-card-bg,deprecated-card-editable-bg,deprecated-quickswitcher-input-background,deprecated-quickswitcher-input-placeholder,deprecated-store-bg,deprecated-text-input-bg,deprecated-text-input-border,deprecated-text-input-border-disabled,deprecated-text-input-border-hover,deprecated-text-input-prefix,focus-primary,header-primary,header-secondary,interactive-active,interactive-hover,interactive-muted,interactive-normal,radio-group-dot-foreground,scrollbar-auto-scrollbar-color-thumb,scrollbar-auto,scrollbar-color-track,scrollbar-auto-thumb,scrollbar-auto-track,scrollbar-thin-thumb,scrollbar-thin-track,text-link,text-muted,text-normal,textbox-markdown-syntax,elevation-high,elevation-low,elevation-medium,elevation-stroke|});$0"
+    ]
+  },
+  // "Vizality CSS Variables": {
+  //   "prefix": ["vz--", "var(--vz"],
+  //   "description": "Shows intellisense options for Vizality's standard CSS variables.",
+  //   "body": [
+  //     "var(--vz-${1||});$0"
+  //   ]
+  // }
+}

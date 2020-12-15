@@ -1,0 +1,38 @@
+{
+  "name": "vizality-snippets",
+  "description": "Useful snippets for Vizality plugin and theme development.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "publisher": "vizality",
+  "icon": "assets/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vizality/vscode-snippets"
+  },
+  "engines": {
+    "vscode": "^1.51.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/javascriptreact.code-snippets"
+      },
+      {
+        "language": "json",
+        "path": "./snippets/json.code-snippets"
+      },
+      {
+        "language": "scss",
+        "path": "./snippets/scss.code-snippets"
+      }
+    ]
+  }
+}

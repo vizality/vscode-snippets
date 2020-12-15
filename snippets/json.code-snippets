@@ -1,0 +1,35 @@
+{
+  "Vizality Plugin Manifest": {
+    "prefix": "vzp",
+    "description": "Creates a Vizality plugin manifest scaffold.",
+    "body": [
+      "{",
+      "  \"name\": \"${1}\",",
+      "  \"description\": \"${2}\",",
+      "  \"author\": {",
+      "    \"name\": \"${3}\",",
+      "    \"id\": \"${4}\"",
+      "  },",
+      "  \"license\": \"${5:MIT}\",",
+      "  \"version\": \"${6:0.0.1}\"",
+      "}"
+    ]
+  },
+  "Vizality Theme Manifest": {
+    "prefix": "vzt",
+    "description": "Creates a Vizality theme manifest scaffold.",
+    "body": [
+      "{",
+      "  \"name\": \"${1}\",",
+      "  \"description\": \"${2}\",",
+      "  \"author\": {",
+      "    \"name\": \"${3}\",",
+      "    \"id\": \"${4}\"",
+      "  },",
+      "  \"license\": \"${5:MIT}\",",
+      "  \"theme\": \"${6:main.css}\",",
+      "  \"version\": \"${7:0.0.1}\"",
+      "}"
+    ]
+  }
+}
