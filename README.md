@@ -34,56 +34,56 @@ All of the JS snippets are included in the JSX snippets, because the JS snippets
 
 |  Trigger | Alias                    | Description                                     |
 | -------- | -------------------------|------------------------------------------------ |
-| `vzp→`   | `vzplug`, `vz-plugin`    | Creates a Vizality plugin class scaffold.       |
-| `vzi→`   | `vzinj`, `vz-inject`     | Creates a function injection scaffold.          |
-| `vzw→`   | `vzweb`, `vz-webpack`    | Imports Vizality's webpack module.              |
-| `vzc→`   | `vzcomp`, `vz-component` | Imports Vizality's components module.           |
-| `vzcn→`  | `vzconst`, `vz-constant` | Imports Vizality's constants module.            |
-| `vzd→`   | `vzdisc`, `vz-discord`   | Imports Vizality's discord module.              |
-| `vzh→`   | `vzhttp`, `vz-http`      | Imports Vizality's http module.                 |
-| `vz18→`  | `vzi18n`, `vz-i18n`      | Imports Vizality's i18n module.                 |
-| `vzr→`   | `vzreact`, `vz-react`    | Imports Vizality's react module.                |
-| `vzu→`   | `vzutil`, `vz-util`      | Imports Vizality's util module.                 |
-| `vzgfc→` | ---                      | Gets a functional component by its displayName. |
+| **vzp→**   | `vzplug`, `vz-plugin`    | Creates a Vizality plugin class scaffold.       |
+| **vzi→**   | `vzinj`, `vz-inject`     | Creates a function injection scaffold.          |
+| **vzw→**   | `vzweb`, `vz-webpack`    | Imports Vizality's webpack module.              |
+| **vzc→**   | `vzcomp`, `vz-component` | Imports Vizality's components module.           |
+| **vzcn→**  | `vzconst`, `vz-constant` | Imports Vizality's constants module.            |
+| **vzd→**   | `vzdisc`, `vz-discord`   | Imports Vizality's discord module.              |
+| **vzh→**   | `vzhttp`, `vz-http`      | Imports Vizality's http module.                 |
+| **vz18→**  | `vzi18n`, `vz-i18n`      | Imports Vizality's i18n module.                 |
+| **vzr→**   | `vzreact`, `vz-react`    | Imports Vizality's react module.                |
+| **vzu→**   | `vzutil`, `vz-util`      | Imports Vizality's util module.                 |
+| **vzgfc→** | ---                      | Gets a functional component by its displayName. |
 
 ### JSX Snippets
 
 |  Trigger | Alias                    | Description                                     |
 | -------- | -------------------------|------------------------------------------------ |
-| `vzp→`   | `vzplug`, `vz-plugin`    | Creates a Vizality plugin class scaffold.       |
-| `vzi→`   | `vzinj`, `vz-inject`     | Creates a function injection scaffold.          |
-| `vzw→`   | `vzweb`, `vz-webpack`    | Imports Vizality's webpack module.              |
-| `vzc→`   | `vzcomp`, `vz-component` | Imports Vizality's components module.           |
-| `vzcn→`  | `vzconst`, `vz-constant` | Imports Vizality's constants module.            |
-| `vzd→`   | `vzdisc`, `vz-discord`   | Imports Vizality's discord module.              |
-| `vzh→`   | `vzhttp`, `vz-http`      | Imports Vizality's http module.                 |
-| `vz18→`  | `vzi18n`, `vz-i18n`      | Imports Vizality's i18n module.                 |
-| `vzr→`   | `vzreact`, `vz-react`    | Imports Vizality's react module.                |
-| `vzu→`   | `vzutil`, `vz-util`      | Imports Vizality's util module.                 |
-| `vzgfc→` | ---                      | Gets a functional component by its displayName. |
-| `vzfc→`  | ---                      | Creates a React functional component scaffold.  |
-| `vzcc→`  | ---                      | Creates a React class component scaffold.       |
-| `vzus→`  | `vzstate`, `vz-state`    | Sets up a React useState hook.                  |
+| **vzp→**   | `vzplug`, `vz-plugin`    | Creates a Vizality plugin class scaffold.       |
+| **vzi→**   | `vzinj`, `vz-inject`     | Creates a function injection scaffold.          |
+| **vzw→**   | `vzweb`, `vz-webpack`    | Imports Vizality's webpack module.              |
+| **vzc→**   | `vzcomp`, `vz-component` | Imports Vizality's components module.           |
+| **vzcn→**  | `vzconst`, `vz-constant` | Imports Vizality's constants module.            |
+| **vzd→**   | `vzdisc`, `vz-discord`   | Imports Vizality's discord module.              |
+| **vzh→**   | `vzhttp`, `vz-http`      | Imports Vizality's http module.                 |
+| **vz18→**  | `vzi18n`, `vz-i18n`      | Imports Vizality's i18n module.                 |
+| **vzr→**   | `vzreact`, `vz-react`    | Imports Vizality's react module.                |
+| **vzu→**   | `vzutil`, `vz-util`      | Imports Vizality's util module.                 |
+| **vzgfc→** | ---                      | Gets a functional component by its displayName. |
+| **vzfc→**  | ---                      | Creates a React functional component scaffold.  |
+| **vzcc→**  | ---                      | Creates a React class component scaffold.       |
+| **vzus→**  | `vzstate`, `vz-state`    | Sets up a React useState hook.                  |
 
 ### JSON Snippets
 
 |  Trigger | Alias | Description                                  |
 | -------- | ------|--------------------------------------------- |
-| `vzp→`   | ---   | Creates a Vizality plugin manifest scaffold. |
-| `vzt→`   | ---   | Creates a Vizality theme manifest scaffold.  |
+| **vzp→**   | ---   | Creates a Vizality plugin manifest scaffold. |
+| **vzt→**   | ---   | Creates a Vizality theme manifest scaffold.  |
 
 ### SCSS Snippets
 
 |  Trigger | Alias               | Description                                                      |
 | -------- | --------------------|----------------------------------------------------------------- |
-| `vzs→`   | `vzsass`, `vz-sass` | Imports the Vizality Sass library.                               |
-| `v--→`   | `var(--`            | Shows intellisense options for Discord's standard CSS variables. |
+| **vzs→**   | `vzsass`, `vz-sass` | Imports the Vizality Sass library.                               |
+| **v--→**   | `var(--`            | Shows intellisense options for Discord's standard CSS variables. |
 
 ### CSS Snippets
 
 |  Trigger | Alias    | Description                                                      |
 | -------- | ---------|----------------------------------------------------------------- |
-| `v--→`   | `var(--` | Shows intellisense options for Discord's standard CSS variables. |
+| **v--→**   | `var(--` | Shows intellisense options for Discord's standard CSS variables. |
 
 ## Todo
 
