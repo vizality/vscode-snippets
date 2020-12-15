@@ -16,7 +16,7 @@
       "};"
     ]
   },
-  "Vizality Settings Component": {
+  "Vizality Settings Functional Component": {
     "prefix": ["vzs", "vzset", "vz-settings"],
     "description": "Creates a Vizality plugin settings functional component scaffold.",
     "body": [
