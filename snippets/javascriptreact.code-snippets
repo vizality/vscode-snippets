@@ -104,6 +104,20 @@
       ""
     ]
   },
+  "Get Webpack Module by Properties": {
+    "prefix": "vzgm",
+    "body": [
+      "const { ${1:property} } = getModule('${1:filter}');",
+      "$0"
+    ]
+  },
+  "Get Webpack Module by Display Name": {
+    "prefix": "vzgmd",
+    "body": [
+      "const ${1:displayName} = getModuleByDisplayName('${1:displayName}');",
+      "$0"
+    ]
+  },
   "React Class Component": {
     "prefix": "vzcc",
     "description": "Sets up your file as if you were starting a functional component.",

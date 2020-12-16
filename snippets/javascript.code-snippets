@@ -73,5 +73,19 @@
       "const ${1:displayName} = getModule(m => m.default?.displayName === '${1:displayName}');",
       "$0"
     ]
+  },
+  "Get Webpack Module by Properties": {
+    "prefix": "vzgm",
+    "body": [
+      "const { ${1:property} } = getModule('${1:filter}');",
+      "$0"
+    ]
+  },
+  "Get Webpack Module by Display Name": {
+    "prefix": "vzgmd",
+    "body": [
+      "const ${1:displayName} = getModuleByDisplayName('${1:displayName}');",
+      "$0"
+    ]
   }
 }

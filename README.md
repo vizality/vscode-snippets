@@ -45,6 +45,8 @@ All of the JS snippets are included in the JSX snippets, because the JS snippets
 | **vzr→**   | `vzreact`, `vz-react`    | Imports Vizality's react module.                |
 | **vzu→**   | `vzutil`, `vz-util`      | Imports Vizality's util module.                 |
 | **vzgfc→** | ---                      | Gets a functional component by its displayName. |
+| **vzgm→**  | ---                      | Gets a webpack module by its properties.        |
+| **vzgmd→** | ---                      | Gets a webpack module by its display name.      |
 
 ### JSX Snippets
 
@@ -62,6 +64,8 @@ All of the JS snippets are included in the JSX snippets, because the JS snippets
 | **vzr→**   | `vzreact`, `vz-react`    | Imports Vizality's react module.                                  |
 | **vzu→**   | `vzutil`, `vz-util`      | Imports Vizality's util module.                                   |
 | **vzgfc→** | ---                      | Gets a functional component by its displayName.                   |
+| **vzgm→**  | ---                      | Gets a webpack module by its properties.                          |
+| **vzgmd→** | ---                      | Gets a webpack module by its display name.                        |
 | **vzfc→**  | ---                      | Creates a React functional component scaffold.                    |
 | **vzcc→**  | ---                      | Creates a React class component scaffold.                         |
 | **vzus→**  | `vzstate`, `vz-state`    | Sets up a React useState hook.                                    |
