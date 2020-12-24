@@ -3,9 +3,9 @@
     "prefix": ["vzp", "vzplug", "vz-plugin"],
     "description": "Creates a Vizality plugin class scaffold.",
     "body": [
-      "const { Plugin } = require('@vizality/entities');",
+      "import { Plugin } from '@vizality/core';",
       "",
-      "module.exports = class ${1:${TM_DIRECTORY/(.*plugins\\\\)(.*)/${2:/pascalcase}/}} extends Plugin {",
+      "export default class ${1:${TM_DIRECTORY/(.*plugins\\\\)(.*)/${2:/pascalcase}/}} extends Plugin {",
       "  onStart() {",
       "    $0",
       "  }",
@@ -30,42 +30,47 @@
   "Vizality Webpack": {
     "prefix": ["vzw", "vzweb", "vz-webpack"],
     "description": "Imports Vizality's webpack module.",
-    "body": ["const { getModule, getModuleByDisplayName, $1 } = require('@vizality/webpack');", "$0"]
+    "body": ["import { getModule } from '@vizality/webpack';$0"]
   },
   "Vizality Components": {
     "prefix": ["vzc", "vzcomp", "vz-component"],
     "description": "Imports Vizality's components module.",
-    "body": ["const { $1 } = require('@vizality/components');", "$0"]
+    "body": ["import { $1 } from '@vizality/components';$0"]
   },
   "Vizality Constants": {
     "prefix": ["vzcn", "vzconst", "vz-constant"],
     "description": "Imports Vizality's constants module.",
-    "body": ["const { $1 } = require('@vizality/constants');", "$0"]
+    "body": ["import { $1 } from '@vizality/constants';$0"]
   },
   "Vizality Discord": {
     "prefix": ["vzd", "vzdisc", "vz-discord"],
     "description": "Imports Vizality's discord module.",
-    "body": ["const { $1 } = require('@vizality/discord');", "$0"]
+    "body": ["import { $1 } from '@vizality/discord';$0"]
   },
   "Vizality HTTP": {
     "prefix": ["vzh", "vzhttp", "vz-http"],
     "description": "Imports Vizality's http module.",
-    "body": ["const { $1 } = require('@vizality/http');", "$0"]
+    "body": ["import { get } from '@vizality/http';$0"]
   },
   "Vizality i18n": {
     "prefix": ["vz18", "vzi18n", "vz-i18n"],
     "description": "Imports Vizality's i18n module.",
-    "body": ["const { $1 } = require('@vizality/i18n');", "$0"]
+    "body": ["import { Messages } from '@vizality/i18n';$0"]
   },
   "Vizality React": {
     "prefix": ["vzr", "vzreact", "vz-react"],
-    "description": "Imports Vizality's react module.",
-    "body": ["const { React$1 } = require('@vizality/react');", "$0"]
+    "description": "Imports React module.",
+    "body": ["import React from 'react';$0"]
+  },
+  "Vizality React with Memo": {
+    "prefix": "vzrm",
+    "description": "Imports React module with memo.",
+    "body": ["import React, { memo } from 'react';$0"]
   },
   "Vizality Utilities": {
     "prefix": ["vzu", "vzutil", "vz-util"],
     "description": "Imports Vizality's util module.",
-    "body": ["const { $1 } = require('@vizality/util');", "$0"]
+    "body": ["import { $1 } from '@vizality/util';$0"]
   },
   "Get Functional Component by displayName": {
     "prefix": "vzgfc",

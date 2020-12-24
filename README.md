@@ -42,7 +42,8 @@ All of the JS snippets are included in the JSX snippets, because the JS snippets
 | **vzd→**   | `vzdisc`, `vz-discord`   | Imports Vizality's discord module.              |
 | **vzh→**   | `vzhttp`, `vz-http`      | Imports Vizality's http module.                 |
 | **vz18→**  | `vzi18n`, `vz-i18n`      | Imports Vizality's i18n module.                 |
-| **vzr→**   | `vzreact`, `vz-react`    | Imports Vizality's react module.                |
+| **vzr→**   | `vzreact`, `vz-react`    | Imports the React module.                       |
+| **vzrm→**  | ---                      | Imports the React module, with memo.            |
 | **vzu→**   | `vzutil`, `vz-util`      | Imports Vizality's util module.                 |
 | **vzgfc→** | ---                      | Gets a functional component by its displayName. |
 | **vzgm→**  | ---                      | Gets a webpack module by its properties.        |
@@ -61,7 +62,8 @@ All of the JS snippets are included in the JSX snippets, because the JS snippets
 | **vzd→**   | `vzdisc`, `vz-discord`   | Imports Vizality's discord module.                                |
 | **vzh→**   | `vzhttp`, `vz-http`      | Imports Vizality's http module.                                   |
 | **vz18→**  | `vzi18n`, `vz-i18n`      | Imports Vizality's i18n module.                                   |
-| **vzr→**   | `vzreact`, `vz-react`    | Imports Vizality's react module.                                  |
+| **vzr→**   | `vzreact`, `vz-react`    | Imports the React module.                                         |
+| **vzrm→**  | ---                      | Imports the React module, with memo.                              |
 | **vzu→**   | `vzutil`, `vz-util`      | Imports Vizality's util module.                                   |
 | **vzgfc→** | ---                      | Gets a functional component by its displayName.                   |
 | **vzgm→**  | ---                      | Gets a webpack module by its properties.                          |
