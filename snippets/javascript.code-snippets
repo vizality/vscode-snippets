@@ -3,7 +3,7 @@
     "prefix": ["vzp", "vzplug", "vz-plugin"],
     "description": "Creates a Vizality plugin class scaffold.",
     "body": [
-      "import { Plugin } from '@vizality/core';",
+      "import { Plugin } from '@vizality/entities';",
       "",
       "export default class ${1:${TM_DIRECTORY/(.*plugins\\\\)(.*)/${2:/pascalcase}/}} extends Plugin {",
       "  onStart() {",
