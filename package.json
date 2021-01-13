@@ -1,7 +1,7 @@
 {
   "name": "vizality-snippets",
   "description": "Useful snippets for Vizality plugin and theme development.",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "license": "MIT",
   "publisher": "vizality",
   "icon": "assets/icon.png",
