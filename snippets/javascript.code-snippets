@@ -6,11 +6,11 @@
       "import { Plugin } from '@vizality/entities';",
       "",
       "export default class ${1:${TM_DIRECTORY/(.*plugins\\\\)(.*)/${2:/pascalcase}/}} extends Plugin {",
-      "  onStart() {",
+      "  start () {",
       "    $0",
       "  }",
       "",
-      "  onStop() {",
+      "  stop () {",
       "     ",
       "  }",
       "}"
