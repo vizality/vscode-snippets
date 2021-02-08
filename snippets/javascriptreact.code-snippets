@@ -99,7 +99,7 @@
     "body": [
       "import React, { memo } from 'react';",
       "",
-      "exports default memo(props => {",
+      "export default memo(props => {",
       "  const { $1 } = props;",
       "  return (",
       "    $0",
