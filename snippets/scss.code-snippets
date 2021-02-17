@@ -3,7 +3,7 @@
     "prefix": ["vzs", "vz-sass"],
     "description": "Imports the Vizality Sass library.",
     "body": [
-      "@use '@vizality' as ${1:*};",
+      "@use '@vizality' as ${1:vz};",
       "",
       "$0"
     ]
