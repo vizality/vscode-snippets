@@ -45,7 +45,7 @@
   "Vizality Discord": {
     "prefix": ["vzd", "vzdisc", "vz-discord"],
     "description": "Imports Vizality's discord module.",
-    "body": ["import { $1 } from '@vizality/discord';$0"]
+    "body": ["import { $1 } from '@discord';$0"]
   },
   "Vizality HTTP": {
     "prefix": ["vzh", "vzhttp", "vz-http"],
